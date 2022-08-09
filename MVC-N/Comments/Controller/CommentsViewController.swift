@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CommentsViewController: UIViewController {
+    
+    //MARK: Outlets
+    @IBOutlet weak var mainTableView: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
