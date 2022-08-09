@@ -10,7 +10,7 @@ import UIKit
 class CommentsViewController: UIViewController {
     
     //MARK: Outlets
-    @IBOutlet weak var mainTableView: UIView!
+    @IBOutlet weak var mainTableView: UITableView!
     
 
     override func viewDidLoad() {
