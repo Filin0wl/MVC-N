@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" red="0.32826343889999998" green="1" blue="0.97746176330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="183" id="MKM-hh-kXs">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="183" id="MKM-hh-kXs" customClass="CommentCell" customModule="MVC_N" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="183"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MKM-hh-kXs" id="3hX-lj-Cji">
@@ -56,6 +56,10 @@
                                                 <constraint firstAttribute="trailing" secondItem="5BN-b7-1Ob" secondAttribute="trailing" constant="20" id="xSK-Ba-oaV"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionTextView" destination="GVJ-d0-EYF" id="DEg-7S-3f4"/>
+                                            <outlet property="titleLabel" destination="5BN-b7-1Ob" id="WCU-dy-xaC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
