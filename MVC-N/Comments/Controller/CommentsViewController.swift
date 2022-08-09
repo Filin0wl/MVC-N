@@ -23,11 +23,12 @@ class CommentsViewController: UIViewController {
 
 extension CommentsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = mainTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        return cell
     }
     
     
