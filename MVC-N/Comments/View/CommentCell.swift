@@ -14,5 +14,10 @@ class CommentCell: UITableViewCell {
     
     @IBOutlet weak var descriptionTextView: UITextView!
     
+    func configure(with comment: Comment) {
+        self.titleLabel.text = comment.name
+        self.descriptionTextView.text = comment.effect
+    }
+    
     
 }
