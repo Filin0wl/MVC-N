@@ -10,7 +10,7 @@ import Foundation
 class CommentNetworkService {
     private init() {}
     
-    static func getComments(completion: @escaping() -> ()) {
+    static func getComments(completion: @escaping(GetCommentResponse) -> ()) {
         guard let url = URL(string: "https://wizard-world-api.herokuapp.com/Elixirs/") else { return }
         
         NetworkService.shared.getData(url: url) { (json) in

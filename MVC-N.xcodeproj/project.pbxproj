@@ -17,6 +17,7 @@
 		127FFCF828A2C2EA00B399AA /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FFCF728A2C2EA00B399AA /* Comment.swift */; };
 		127FFCFB28A2CB1000B399AA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FFCFA28A2CB1000B399AA /* NetworkService.swift */; };
 		127FFCFE28A3C28400B399AA /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FFCFD28A3C28400B399AA /* CommentNetworkService.swift */; };
+		127FFD0228A3C7E300B399AA /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FFD0128A3C7E300B399AA /* GetCommentResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		127FFCF728A2C2EA00B399AA /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		127FFCFA28A2CB1000B399AA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		127FFCFD28A3C28400B399AA /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		127FFD0128A3C7E300B399AA /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				127FFCF728A2C2EA00B399AA /* Comment.swift */,
+				127FFD0128A3C7E300B399AA /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				123C373128A288AD009A1289 /* AppDelegate.swift in Sources */,
 				123C373328A288AD009A1289 /* SceneDelegate.swift in Sources */,
 				127FFCFB28A2CB1000B399AA /* NetworkService.swift in Sources */,
+				127FFD0228A3C7E300B399AA /* GetCommentResponse.swift in Sources */,
 				127FFCF628A2BFAC00B399AA /* CommentCell.swift in Sources */,
 				127FFCFE28A3C28400B399AA /* CommentNetworkService.swift in Sources */,
 			);
