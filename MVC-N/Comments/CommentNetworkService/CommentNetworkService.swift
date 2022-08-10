@@ -14,7 +14,12 @@ class CommentNetworkService {
         guard let url = URL(string: "https://wizard-world-api.herokuapp.com/Elixirs/") else { return }
         
         NetworkService.shared.getData(url: url) { (json) in
-            <#code#>
+            do {
+                let response =  try GetCommentResponse(json: json)
+                completion(response)
+            } catch {
+                print(error)
+            }
         }
     }
 }
