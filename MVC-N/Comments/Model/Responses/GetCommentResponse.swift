@@ -9,10 +9,11 @@ import Foundation
 
 struct GetCommentResponse {
     
+    typealias JSON = [[String: AnyObject]]
     let comments: [Comment]
     
     init(json: Any) throws {
-        guard let array = json as? [[String: AnyObject]] else { throw NetworkError.failInternetError }
+        guard let array = json as? JSON else { throw NetworkError.failInternetError }
         
         var comments = [Comment]()
         for dictionary in array {
