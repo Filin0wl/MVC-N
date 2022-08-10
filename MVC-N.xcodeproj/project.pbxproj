@@ -140,8 +140,8 @@
 		123C374B28A28993009A1289 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				127FFD0328A3C87100B399AA /* Responses */,
 				127FFCF728A2C2EA00B399AA /* Comment.swift */,
-				127FFD0128A3C7E300B399AA /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +176,14 @@
 				127FFCFD28A3C28400B399AA /* CommentNetworkService.swift */,
 			);
 			path = CommentNetworkService;
+			sourceTree = "<group>";
+		};
+		127FFD0328A3C87100B399AA /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				127FFD0128A3C7E300B399AA /* GetCommentResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
