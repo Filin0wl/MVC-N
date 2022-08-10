@@ -9,13 +9,19 @@ import UIKit
 
 class CommentsViewController: UIViewController {
     
-    //MARK: Outlets
+    //MARK: - Outlets
     @IBOutlet weak var mainTableView: UITableView!
     
+    //MARK: - Fields
+    var comments = [Comment]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        CommentNetworkService.getComments { (response) in
+            self.comments = response.comments
+            self.mainTableView.reloadData()
+        }
     }
 
 
